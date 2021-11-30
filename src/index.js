@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 
-import './estilos.css';
+import "./estilos.css";
 
 import App from './App';
 
