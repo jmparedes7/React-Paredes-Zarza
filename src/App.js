@@ -7,8 +7,11 @@ const App = () => {
   return (
     <>
     <Header />
+
     <ItemListContainer greeting = "Bienvenidos!!" />
+
     <Main />
+    
     <Nav />
     </>
   )
