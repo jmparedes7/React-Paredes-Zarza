@@ -1,4 +1,6 @@
-import itemList from "./itemList"
+import Productos from "./Productos"
+
+const Productos = ({Productos})
 
 const Item = ({productos}) => {
     return (
@@ -14,6 +16,8 @@ const Item = ({productos}) => {
             <p className= "info">
                 Precio: {productos.precio}
             </p>
+
+            <button>Comprar</button>
 
         </div>
     )
