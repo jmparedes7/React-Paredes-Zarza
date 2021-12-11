@@ -1,6 +1,6 @@
-import Productos from "./Productos"
+import productos from "./Productos"
 
-const Productos = ({Productos})
+//const stock = ({productos}) 
 
 const Item = ({productos}) => {
     return (

@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-const itemCount =({stock, initial, onAdd}) => {
+const ItemCount =({stock, initial, onAdd}) => {
     
     stock = 5
     initial= 1
@@ -13,8 +13,8 @@ if (contador < stock) {
 } else {
     alert("No hay suficiente stock")
 }
-    
 }
+
 
 const restarCont = () => {
 
@@ -30,7 +30,6 @@ const agregarCarrito = () => {
     }
 }
 
-}
 
 const contadorItem = () => {
     return (
@@ -42,5 +41,6 @@ const contadorItem = () => {
         </span>
     )
 }
+}
 
-export default itemCount
+export default ItemCount
